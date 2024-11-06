@@ -45,7 +45,6 @@ namespace ContosoSuites.Functions
             _embeddingClient = openAIClient.GetEmbeddingClient(deploymentName);   
         }
 
-        /// <summary>
         /// Listens for changes to maintenance requests in Cosmos DB and generates vector embeddings for new requests.
         /// </summary>
         [Function("VectorizeMaintenanceRequests")]
