@@ -9,9 +9,6 @@ using System.Text.Json.Serialization;
 
 namespace ContosoSuites.Functions
 {
-    /// <summary>
-    /// A function that listens for changes to maintenance requests in Cosmos DB and generates vector embeddings for new requests.
-    /// </summary>
     public class CosmosChangeFeedVectorization
     {
         private readonly ILogger _logger;
